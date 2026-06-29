@@ -15,19 +15,29 @@
 
 ### 1. 安装依赖
 
-```bash
-# 安装bsk CLI（browser-skill）
-# 参见 https://browser.skill
+**浏览器扩展** (必需)：
+- 从 [browser-skill](https://github.com/nous-research/browser-skill) 下载扩展
+- 在Chrome中加载扩展，确保popup显示绿色（已连接）
 
-# 验证安装
+**bsk CLI** (必需)：
+```bash
+# 从 https://github.com/nous-research/browser-skill/releases 下载
+# 或 cargo install bsk
+bsk --version
+```
+
+**验证安装**：
+```bash
 bsk status
+# 应该显示 browsers connected: 1
 ```
 
 ### 2. 克隆此仓库
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/browser-control.git
+git clone https://github.com/ysw-2025/browser-control.git
 cd browser-control
+chmod +x scripts/*.sh  # 如果需要
 ```
 
 ### 3. 使用
