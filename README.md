@@ -1,6 +1,12 @@
 # browser-control
 
-通过bsk CLI控制用户真实Chromium浏览器的Skill。让AI只需调用脚本，不直接写bsk命令。
+**v1.2.0** | 通过bsk CLI控制用户真实Chromium浏览器的Skill。让AI只需调用脚本，不直接写bsk命令。
+
+## 🆕 v1.2.0 新功能
+
+- `get-html.sh` - 快速获取原始HTML（数据采集专用，比snapshot快50%）
+- `extract-data.sh` - 结构化数据提取（支持门店名/价格/评价数）
+- 优化数据采集策略文档
 
 ## 功能
 
@@ -10,6 +16,7 @@
 - 截图与等待
 - 多标签管理
 - 一键workflow
+- **🆕 快速数据采集**（get-html + extract-data）
 
 ## 快速开始
 
